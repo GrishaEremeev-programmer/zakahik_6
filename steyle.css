@@ -1,0 +1,163 @@
+/* Сайт клуба настольных игр «BoardFun»
+Необходимые элементы
+
+1. Шапка сайта
+
+Название клуба BoardFun
+Короткое описание (например:
+ Клуб настольных игр для всех)
+
+2. Раздел «О клубе»
+
+Краткое описание клуба (2–3 предложения)
+
+3. Раздел «Популярные игры»
+
+Создать карточки 3 настольных игр.
+Каждая карточка должна содержать:
+
+изображение игры
+название игры
+краткое описание
+
+4. Таблица расписания встреч
+
+Создать таблицу со столбцами:
+
+День
+Время
+Игра
+
+Минимум 3 строки.
+
+5. Раздел «Почему стоит прийти»
+
+Создать список преимуществ клуба, например:
+
+дружелюбная атмосфера
+новые игры каждую неделю
+турниры и призы
+
+6. Подвал сайта
+
+текст: Клуб настольных игр BoardFun
+год создания сайта
+
+
+Пожелания по оформлению
+Цветовая гамма:
+
+оранжевый #FFB74D
+коричневый #5D4037
+белый #FFFFFF
+светло-бежевый #FFF3E0 (для фона или таблицы)
+тёмно-коричневый #3E2723 (для текста или 
+акцентов)
+
+Использовать:
+
+скруглённые углы у карточек игр
+внутренние отступы в блоках
+внешние отступы между разделами
+границы у таблицы и блоков */
+
+body{
+    margin: 0px;
+    width: 2370px;
+}
+header{
+    text-align: center;
+    font-size: 35px;
+    background-color: #FFF3E0;
+    width:100%;
+    height: 150px;
+    padding: 80px;
+    border: 8px #5D4037  solid;
+}
+.ok{
+    margin:10px  10px;
+    border: 6px #FFB74D  solid;
+    padding: 30px;
+    width: 850px;
+    font-size: 30px;
+}
+.poig{
+    text-align: center;
+    font-size: 40px;
+}
+.gl{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 400px;
+}
+.div_1{
+    border: 8px #5D4037 solid;
+    border-radius: 20px;
+    width: 500px;
+    padding: 20px;
+    font-size:30px;
+    background:#FFB74D;
+}
+.div_1 img{
+    width: 250px;
+    height: 250px;
+}
+.div_2{
+    border: 8px #5D4037 solid;
+    border-radius: 20px;
+    width: 500px;
+    padding: 20px;
+    font-size:30px;
+    background:#FFB74D;
+}
+.div_2 img{
+    width: 250px;
+    height: 250px;
+}
+.div_3{
+    border: 8px #5D4037 solid;
+    border-radius: 20px;
+    width: 500px;
+    padding: 20px;
+    font-size:30px;
+    background:#FFB74D;
+}
+.div_3 img{
+    width: 250px;
+    height:250px;
+}
+table{
+    border-collapse:collapse;
+    width: 1000px;
+    margin: 25px 800px;
+    height: 360px;
+    font-size: 30px;
+}
+td{
+    border:  4px solid #5D4037 ;
+    padding: 40px;
+    font-size: 30px;
+}
+.ty{
+    background-color:#FFF3E0;
+    font-size:35px;
+    font-weight: bold;
+}
+.psp{
+    margin:10px  10px;
+    border: 6px #FFB74D  solid;
+    padding: 30px;
+    width: 850px;
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    font-size: 35px;
+    background-color:#FFF3E0 ;
+    width:100%;
+    height: 150px;
+    padding: 80px;
+    border: 8px #5D4037  solid;
+}
